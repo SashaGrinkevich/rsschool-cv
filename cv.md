@@ -39,11 +39,10 @@ function multiply(a, b){
 - Stack:HTML,CSS.
 
 ## Courses:
-
--TeachMeSkills
--FreeCodeCamp
--HTML Academy
+- TeachMeSkills
+- FreeCodeCamp
+- HTML Academy
 
 ## Languages
--Russian - native speaker.
--English - A2
+- Russian - native speaker.
+- English - A2
