@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
+    list-style: none;
+    max-width: 1170px;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Raleway', 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+
+}
+
+header {
+    background-color: rgb(138, 154, 155);
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+.menu-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(138, 154, 155);
+}
+
+.menu__link {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.nav__link {
+    color: black;
+}
+
+.nav__link:hover {
+    width: auto;
+    color: rgb(205, 170, 81);
+}
+
+.nav__link:active {
+    width: auto;
+    color: #D0D0D0;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+}
+
+.user {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+.imgAvatar {
+   width: 25%;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.contact,
+.courses,
+.skills {
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.contact-list,
+.skills-list,
+.courses-list,
+.projects-list,
+.languages-list {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.courses-list-ul {
+    margin-bottom: 50px;
+}
+.stack-list{
+    padding: 5px;
+}
+span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 5px 0;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.subTitle {
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.contact-list-ul,
+.courses-list-ul,
+.skills-list-ul,
+.subTitle-list-ul {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    background-color: rgb(138, 154, 155)
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.aboutMe {
+    font-size: 15px;
+    font-family: 'Raleway' sans-serif;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.projects-list-ul,
+.languages-list-ul,
+.text {
+    border-right: 1px solid black;
+}
+
+.aboutMe,
+.projects,
+.languages,
+.code {
+    margin-bottom: 50px;
+}
+
+.left-side {
+    width: 580px;
+}
+
+.right-side {
+    margin-right: -44px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(138, 154, 155);
+    padding: 20px 0;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.mygit{
+    color: black;
+}
+.mygit:hover{
+    width: auto;
+    color: rgb(205, 170, 81);
+}
+.svgImg{
+    width: 60px; 
+}
+.git-link{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.footerImg{
+    width: 50px;
+    padding: 0;
+}
