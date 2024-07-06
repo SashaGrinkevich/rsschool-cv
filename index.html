@@ -9,7 +9,111 @@
 </head>
 
 <body>
-    <div class="hi"> hello world!</div>
+    <div class="container"></div>
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="menu-nav">
+                <li class="menu__link"><a href="#contact" class="nav__link">My Contact Info</a></li>
+                <li class="menu__link"><a href="#aboutMe" class="nav__link">About Me</a></li>
+                <li class="menu__link"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="menu__link"><a href="#code" class="nav__link">Code Example</a></li>
+                <li class="menu__link"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="menu__link"><a href="#courses" class="nav__link">Courses</a></li>
+                <li class="menu__link"><a href="#languages" class="nav__link">Languages</a></li>
+            </ul>
+        </nav>
+        <div class="info">
+            <div class="user">
+                <img src="./img/avatar.jpg" alt="avatar" class="imgAvatar">
+                <div class="name">
+                    <h1 class="title">Alexander Grinkevich</h1>
+                    <h3>Front End Developer ( junior )</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main" >
+        <section class="left-side">
+            <div class="contact" id="contact">
+                <h2 class="subTitle">My Contact Info</h2>
+                <ul class="contact-list-ul">
+                    <li class="contact-list"><span>Phone:</span>+375(29)772-78-29</li>
+                    <li class="contact-list"><span>E-mail:</span>grinkevich.1999@bk.ru</li>
+                    <li class="contact-list"><span>GitHub:</span>SashaGrinkevich</li>
+                    <li class="contact-list"><span>Telegram:</span>@Sanya00011</li>
+                </ul>
+            </div>
+            <div class="courses" id="courses">
+                <h2 class="subTitle">Courses</h2>
+                <ul class="courses-list-ul" >
+                    <li class="courses-list">TeachMeSkills</li>
+                    <li class="courses-list">FreeCodeCamp</li>
+                    <li class="courses-list">HTML Academy</li>
+                </ul>
+            </div>
+            <div class="skills" id="skills">
+                <h2 class="subTitle">Skills</h2>
+                <ul class="skills-list-ul">
+                    <li class="skills-list">HTML</li>
+                    <li class="skills-list">CSS/SASS</li>
+                    <li class="skills-list">TypeScrtipt</li>
+                    <li class="skills-list">JavaScript</li>
+                    <li class="skills-list">Git</li>
+                    <li class="skills-list">Figma</li>
+                    <li class="skills-list">Bootstrap</li>
+                    <li class="skills-list">React</li>
+                    <li class="skills-list">React-Router</li>
+                    <li class="skills-list">Redux Toolkit</li>
+                </ul>
+            </div>
+        </section>
+        <section class="right-side">
+            <div class="aboutMe" id="aboutMe">
+                <h2 class="subTitle">About Me</h2>
+                <p class="text">I really like to develop myself, try something new. For several years I had a great desire to develop
+                    in the IT field. Of all the areas, Front End was the closest, due to the ability to work with the
+                    user interface. To develop in this area, I watch specialized YouTube channels, read technical
+                    literature, specialized TG channels, analyze and study examples of other people’s code. In my free
+                    time, I play sports (basketball), read books, try new activities</p>
+            </div>
+            <div class="code" id="code">
+                <h2 class="subTitle">Code Example</h2>
+                <p class="text"> <br>
+                    function multiply(a, b) { <br>
+                    return a * b <br>
+                    } <br>
+                 <br></p>
+            </div>
+            <div class="projects" id="projects">
+                <h2 class="subTitle">Projects</h2>
+                <ul class="projects-list-ul">
+                    <li class="projects-list">Bookstore
+                        <ul>Stack: HTML, JavaScript, TypeScript, React, Redux</ul>
+                    </li >
+                    <li class="projects-list">ActiveBox
+                        <ul>Stack: HTML, SCSS, Prepros</ul>
+                    </li>
+                    <li class="projects-list">AXIT
+                        <ul>Stack: HTML, CSS</ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="languages" id="languages">
+                <h2 class="subTitle">Languages</h2>
+                <ul class="languages-list-ul">
+                    <li class="languages-list">Russian - native speaker</li>
+                    <li class="languages-list">English - A2</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="git-link"> <a href="https://github.com/SashaGrinkevich" target="_blank"  class="mygit"><span >GitHub</span></a></div>
+        <div>
+            <span>2024</span>
+        </div>
+        <div> <a href="https://rs.school/courses/javascript-ru" target="_blank"> <img src="./img/logo_rs_text.svg" alt="logoCourses"></a></div>
+    </footer>
 </body>
 
 </html>
