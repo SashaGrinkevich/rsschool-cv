@@ -182,3 +182,16 @@ border-bottom-right-radius: 15px;
     width: auto;
     color: rgb(205, 170, 81);
 }
+.svgImg{
+    width: 60px; 
+}
+.git-link{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.footerImg{
+    width: 50px;
+    padding: 0;
+}
