@@ -27,7 +27,6 @@ border-top-right-radius: 15px;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: rgb(138, 154, 155);
-    
 }
 
 .menu__link {
@@ -43,7 +42,6 @@ border-top-right-radius: 15px;
 .nav__link:hover {
     width: auto;
     color: rgb(205, 170, 81);
-    
 }
 
 .nav__link:active {
@@ -74,7 +72,6 @@ border-top-right-radius: 15px;
    width: 25%;
     margin: 0;
     padding: 40px 0;
-
 }
 
 .contact,
@@ -140,7 +137,6 @@ h3 {
 }
 
 .aboutMe {
-    /* margin-bottom: 50px; */
     font-size: 15px;
     font-family: 'Raleway' sans-serif;
     line-height: 30px;
