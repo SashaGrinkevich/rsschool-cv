@@ -1,0 +1,248 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 0 40px;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+    /* position: relative; */
+    /* z-index: 10; */
+    /* background-image: url(../img/start-screen-background.jpg); */
+
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-between;
+    width: 443px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(205, 205, 205, 1);
+
+}
+
+.logo_title {
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left;
+    color: rgba(241, 205, 179, 1);
+    ;
+}
+
+.logo_subtitle {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.95px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.startScreen {
+    background-image: url(../img/start-screen-background.jpg);
+    background-image: url(../img/start-screen-background-2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.left_side {
+    width: 460px;
+    padding: 163px 42px 243px 0;
+}
+
+.left_side-subtitle {
+    font-family: Georgia;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57.2px;
+    text-align: left;
+    color: white;
+    width: 310px;
+    padding-bottom: 42px;
+
+}
+
+.left_side-description {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(205, 205, 205, 1);
+    width: 460px;
+    padding-bottom: 42px;
+
+}
+
+.left_side-btn {
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    text-align: center;
+    color: rgba(41, 41, 41, 1);
+    background-color: rgba(241, 205, 179, 1);
+    width: 207px;
+    height: 52px;
+    gap: 10px;
+    border-radius: 25px;
+}
+
+.about {
+    display: flex;
+    padding: 80px 40px 100px;
+    justify-content: center;
+    gap: 120px;
+}
+
+.left_about {}
+
+.right_about {
+    width: 430px;
+}
+
+.about-title {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    width: 370px;
+    padding-bottom: 25px;
+
+}
+
+.about-text1 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(76, 76, 76, 1);
+    padding-bottom: 25px;
+}
+
+.about-text2 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(76, 76, 76, 1);
+}
+
+.pets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(246, 246, 246, 1);
+    padding: 80px 40px 100px;
+
+}
+
+.pets-title {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 400px;
+    color: rgba(84, 84, 84, 1);
+    padding-bottom: 60px;
+
+}
+
+.pets-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.pet-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 45px;
+    background-color: white;
+}
+
+.pets-card-name {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.72px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.pets-card-btn {
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    background-color: white;
+    text-align: center;
+    width: 187px;
+    height: 52px;
+    border: 2px solid rgba(241, 205, 179, 1);
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.slider-btn {
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    opacity: 0px;
+    border: 2px solid rgba(241, 205, 179, 1);
+    background-color: none;
+
+}
+
+.pets-btn {
+    width: 261px;
+    height: 52px;
+    gap: 10px;
+    border-radius: 25px;
+    opacity: 0px;
+    background-color: rgba(241, 205, 179, 1);
+    color: rgba(41, 41, 41, 1);
+    border: none;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+}
