@@ -1,7 +1,8 @@
 .footer {
     padding: 40px 40px 0 40px;
-    background-image: url(../img/footer-background.png);
-    background-image: url(../img/footer-gradient-background.png);
+    background-image: url(../../img/footer-background.png);
+    background-image: url(../../img/footer-gradient-background.png);
+    height: 350px;
 
 }
 
@@ -9,6 +10,7 @@
     display: flex;
     justify-content: space-around;
     gap: 140px;
+
 }
 
 .footer-contact,

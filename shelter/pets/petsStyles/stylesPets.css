@@ -1,0 +1,17 @@
+@import url(../petsStyles/headerPets.css);
+@import url(../petsStyles/mainPets.css);
+@import url(../petsStyles/footerPets.css);
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
