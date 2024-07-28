@@ -17,7 +17,33 @@
     text-align: left;
     align-items: center;
     color: rgba(84, 84, 84, 1);
+    scroll-behavior: smooth;
 
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 443px;
+}
+
+.nav-link {
+    color: rgba(84, 84, 84, 1);
+}
+.nav-link1{
+    color: rgba(84, 84, 84, 1);
+    border-bottom: 3px solid rgba(241, 205, 179, 1);
+    padding-bottom: 3px;
+}
+
+.nav-link:hover {
+    color: rgba(41, 41, 41, 1);
+    transition: 0.3ms;
+}
+.nav-link:active{
+    color: rgba(84, 84, 84, 1);
+    transition: 0.3ms;
+    border-bottom: 3px solid rgba(241, 205, 179, 1);
+    padding-bottom: 3px;
 }
 
 .logo_title {

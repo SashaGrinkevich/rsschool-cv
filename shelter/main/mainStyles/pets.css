@@ -38,6 +38,11 @@
     background-color: white;
 }
 
+.pet-card:hover {
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    transition: 0.3s;
+}
+
 .pets-card-name {
     font-family: Georgia;
     font-size: 20px;
@@ -65,6 +70,14 @@
     cursor: pointer;
 }
 
+.pets-card-btn:hover {
+    background-color: rgba(253, 220, 196, 1);
+}
+
+.pets-card-btn:active {
+    background-color: rgba(241, 205, 179, 1)
+}
+
 .slider-btn {
     width: 52px;
     height: 52px;
@@ -74,6 +87,16 @@
     background-color: none;
     cursor: pointer;
 
+}
+
+.slider-btn:hover {
+    background-color: rgba(253, 220, 196, 1);
+    transition: 0.3s;
+}
+
+.slider-btn:active {
+    background-color: rgba(241, 205, 179, 1);
+    transition: 0.3s;
 }
 
 .pets-btn {
@@ -92,5 +115,14 @@
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
+}
 
+.pets-btn:hover {
+    background-color: rgba(253, 220, 196, 1);
+    transition: 0.3s;
+}
+
+.pets-btn:active {
+    background-color: rgba(241, 205, 179, 1);
+    transition: 0.3s;
 }

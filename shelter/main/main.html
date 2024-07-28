@@ -17,10 +17,12 @@
                     <div class="logo_subtitle">Shelter for pets in Boston</div>
                 </div>
                 <nav class="navigate">
-                    <li>About the shelter</li>
-                    <li>Our pets</li>
-                    <li>Help the shelter</li>
-                    <li>Contacts</li>
+                    <ul class="nav-menu">
+                        <li class="menu-link"> <a href="#about" class="nav-link1">About the shelter</a> </li>
+                        <li class="menu-link"> <a href="../pets/pets.html" class="nav-link">Our pets</a> </li>
+                        <li class="menu-link"> <a href="#help" class="nav-link">Help the shelter</a> </li>
+                        <li class="menu-link"> <a href="#contacts" class="nav-link">Contacts</a> </li>
+                    </ul>
                 </nav>
                 <div class="startpage">
                     <div class="left_side">
@@ -29,7 +31,7 @@
                             extremely wide and open heart. He or she will love you more than anybody else in the world,
                             you
                             will see!</p>
-                        <button class="left_side-btn">Make a friend</button>
+                        <a href="#pets"><button class="left_side-btn">Make a friend</button></a>
                     </div>
                     <div class="righ_side">
                         <img src="../img/start-screen-puppy.png" alt="dog" class="img-puppy">
@@ -38,7 +40,7 @@
             </header>
         </section>
         <main class="main">
-            <section class="about">
+            <section class="about" id="about">
                 <div class="left_about">
                     <img src="../img/about-pets.png" alt="pats" class="about-img">
                 </div>
@@ -55,7 +57,7 @@
                         the animals, they become attached to the pets and would hardly ever leave them alone.</p>
                 </div>
             </section>
-            <section class="pets">
+            <section class="pets" id="pets">
                 <div class="pets-header">
                     <h3 class="pets-title">Our friends who
                         are looking for a house</h3>
@@ -84,10 +86,11 @@
                                 alt="Arrow"></button></div>
                 </div>
                 <div>
-                    <button class="pets-btn">Get to know the rest</button>
+                    <a href="../pets/pets.html" target="_blank"> <button class="pets-btn">Get to know the
+                            rest</button></a>
                 </div>
             </section>
-            <section class="help">
+            <section class="help" id="help">
                 <div class="help-header">
                     <h3 class="hepl-title">How you can help
                         our shelter</h3>
@@ -151,28 +154,44 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" id="contacts">
             <div class="footer-content">
                 <div class="footer-contact">
                     <h3 class="footer-title-contact">For questions and suggestions</h3>
                     <div class="footer-mail">
-                        <img src="../img/icon-email.svg" alt="icon" class="footer-contact-img">
-                        <h4 class="contact-text">email@shelter.com</h4>
+                        <a href="https://360.yandex.ru/mail/" target="_blank">
+                            <img src="../img/icon-email.svg" alt="icon" class="footer-contact-img"></a>
+                        <a href="https://360.yandex.ru/mail/" target="_blank">
+                            <h4 class="contact-text">email@shelter.com</h4>
+                        </a>
                     </div>
                     <div class="footer-phone">
-                        <img src="../img/icon-phone.svg" alt="icon" class="footer-contact-img">
-                        <h4 class="contact-text">+13 674 567 75 54</h4>
+                        <a href="tel:+136745677554" target="_blank"><img src="../img/icon-phone.svg" alt="icon"
+                                class="footer-contact-img"></a>
+                        <a href="tel:+136745677554" target="_blank">
+                            <h4 class="contact-text">+13 674 567 75 54</h4>
+                        </a>
                     </div>
                 </div>
                 <div class="footer-locations">
                     <h3 class="footer-title-locations">We are waiting for your visit</h3>
                     <div class="locations">
-                        <img src="../img/icon-marker.svg" alt="icon" class="footer-locations-img">
-                        <h4 class="location-text">1 Central Street, Boston (entrance from the store)</h4>
+                        <a href="https://www.google.com/maps/search/1+Central+Street,+Boston/@42.3579939,-71.0614665,17z/data=!3m1!4b1?entry=ttu"
+                            target="_blank"><img src="../img/icon-marker.svg" alt="icon"
+                                class="footer-locations-img"></a>
+                        <a href="https://www.google.com/maps/search/1+Central+Street,+Boston/@42.3579939,-71.0614665,17z/data=!3m1!4b1?entry=ttu"
+                            target="_blank">
+                            <h4 class="location-text">1 Central Street, Boston (entrance from the store)</h4>
+                        </a>
                     </div>
                     <div class="locations">
-                        <img src="../img/icon-marker.svg" alt="icon" class="footer-locations-img">
-                        <h4 class="location-text">18 South Park, London </h4>
+                        <a href="https://www.google.com/maps/search/18+South+Park,+London/@51.5121701,-0.1902198,12z/data=!3m1!4b1?entry=ttu"
+                            target="_blank"><img src="../img/icon-marker.svg" alt="icon"
+                                class="footer-locations-img"></a>
+                        <a href="https://www.google.com/maps/search/18+South+Park,+London/@51.5121701,-0.1902198,12z/data=!3m1!4b1?entry=ttu"
+                            target="_blank">
+                            <h4 class="location-text">18 South Park, London </h4>
+                        </a>
                     </div>
                 </div>
                 <div class="footer-img">
@@ -181,8 +200,6 @@
             </div>
         </footer>
     </div>
-
-
     <script src="./index.js"></script>
 </body>
 

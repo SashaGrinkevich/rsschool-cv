@@ -1,25 +1,21 @@
-.startScreen{
+.startScreen {
     background-image: url(./../img/start-screen-background-2.jpg);
     background-image: url(../../img/start-screen-background.jpg);
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 40px;
+    padding: 30px 40px 0;
     flex-direction: column;
+    height: 908px;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 30px 40px 0 40px;
     flex-wrap: wrap;
-    margin-bottom: 90px;
-
 }
 
 .navigate {
-    display: flex;
-    justify-content: space-between;
-    width: 443px;
     font-family: Arial;
     font-size: 15px;
     font-weight: 400;
@@ -27,7 +23,34 @@
     text-align: left;
     align-items: center;
     color: rgba(205, 205, 205, 1);
+}
 
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 443px;
+}
+
+.nav-link {
+    color: rgba(205, 205, 205, 1);
+}
+
+.nav-link1 {
+    color: rgba(250, 250, 250, 1);
+    border-bottom: 3px solid rgba(241, 205, 179, 1);
+    padding-bottom: 5px;
+}
+
+.nav-link:hover {
+    color: rgba(205, 205, 205, 1);
+    transition: 0.3ms;
+}
+
+.nav-link:active {
+    color: rgba(250, 250, 250, 1);
+    transition: 0.3ms;
+    border-bottom: 3px solid rgba(241, 205, 179, 1);
+    padding-bottom: 3px;
 }
 
 .logo_title {
@@ -48,9 +71,10 @@
     text-align: left;
     color: rgba(255, 255, 255, 1);
 }
-.startpage{
+
+.startpage {
     display: flex;
-    padding-top: 90px;
+    margin-top: 90px;
 }
 
 .left_side {
@@ -96,4 +120,14 @@
     border-radius: 25px;
     cursor: pointer;
     border: none;
+}
+
+.left_side-btn:hover {
+    background-color: rgba(253, 220, 196, 1);
+    transition: 0.3s;
+}
+
+.left_side-btn:active {
+    background-color: rgba(241, 205, 179, 1);
+    transition: 0.3s;
 }
