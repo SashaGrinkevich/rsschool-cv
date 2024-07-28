@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    padding: 80px 40px 100px;
+    justify-content: center;
+    gap: 120px;
+}
+
+.right_about {
+    width: 430px;
+}
+
+.about-title {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    width: 370px;
+    padding-bottom: 25px;
+
+}
+
+.about-text1 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(76, 76, 76, 1);
+    padding-bottom: 25px;
+}
+
+.about-text2 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(76, 76, 76, 1);
+}

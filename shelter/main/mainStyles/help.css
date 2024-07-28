@@ -1,0 +1,42 @@
+.help{
+    margin: 80px 40px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hepl-title{
+font-family: Georgia;
+font-size: 35px;
+font-weight: 400;
+line-height: 45.5px;
+letter-spacing: 0.06em;
+text-align: center;
+color: rgba(84, 84, 84, 1);
+width: 308px;
+justify-content: center;
+margin: auto;
+margin-bottom: 60px;
+
+}
+.help-cards{
+    display: flex;
+
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 120px;
+   
+}
+.help-text{
+font-family: Georgia;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.06em;
+text-align: center;
+color: rgba(84, 84, 84, 1);
+
+}
+.help-img{
+    margin-bottom: 30px;
+}
