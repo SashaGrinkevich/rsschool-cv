@@ -1,0 +1,133 @@
+.startScreen {
+    background-image: url(./../img/start-screen-background-2.jpg);
+    background-image: url(../../img/start-screen-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 40px 0;
+    flex-direction: column;
+    height: 908px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navigate {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    align-items: center;
+    color: rgba(205, 205, 205, 1);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 443px;
+}
+
+.nav-link {
+    color: rgba(205, 205, 205, 1);
+}
+
+.nav-link1 {
+    color: rgba(250, 250, 250, 1);
+    border-bottom: 3px solid rgba(241, 205, 179, 1);
+    padding-bottom: 5px;
+}
+
+.nav-link:hover {
+    color: rgba(205, 205, 205, 1);
+    transition: 0.3ms;
+}
+
+.nav-link:active {
+    color: rgba(250, 250, 250, 1);
+    transition: 0.3ms;
+    border-bottom: 3px solid rgba(241, 205, 179, 1);
+    padding-bottom: 3px;
+}
+
+.logo_title {
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left;
+    color: rgba(241, 205, 179, 1);
+    padding-bottom: 10px;
+}
+
+.logo_subtitle {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.95px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.startpage {
+    display: flex;
+    margin-top: 90px;
+}
+
+.left_side {
+    width: 460px;
+    padding: 163px 0 243px 0;
+}
+
+.left_side-subtitle {
+    font-family: Georgia;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57.2px;
+    text-align: left;
+    color: white;
+    width: 310px;
+    padding-bottom: 42px;
+
+}
+
+.left_side-description {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(205, 205, 205, 1);
+    width: 460px;
+    padding-bottom: 42px;
+
+}
+
+.left_side-btn {
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    text-align: center;
+    color: rgba(41, 41, 41, 1);
+    background-color: rgba(241, 205, 179, 1);
+    width: 207px;
+    height: 52px;
+    gap: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.left_side-btn:hover {
+    background-color: rgba(253, 220, 196, 1);
+    transition: 0.3s;
+}
+
+.left_side-btn:active {
+    background-color: rgba(241, 205, 179, 1);
+    transition: 0.3s;
+}
